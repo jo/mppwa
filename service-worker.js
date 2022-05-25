@@ -1,4 +1,6 @@
-const PRECACHE = 'precache-v2'
+// v2
+
+const PRECACHE = 'precache'
 const RUNTIME = 'runtime'
 
 const RESOURCES = [
