@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang=en>
+<head>
+  <meta charset=utf-8>
+  <title>MPPWA</title>
+  <meta name=description content="Exploring a multi page pwa">
+  <meta name=viewport content=width=device-width,initial-scale=1>
+  <link rel=manifest href=manifest.json>
+  <link rel=apple-touch-icon href=images/192x192.png>
+  <meta name=theme-color content=#ebbc97>
+  <style>
+    body {
+      margin: 0;
+      text-align: center;
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <h1>MPPWA</h1>
+  <p>Exploring a multi page pwa.</p>
+  <p>This is an <a href=about>about page</a></p>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+    }
+  </script>
+</body>
